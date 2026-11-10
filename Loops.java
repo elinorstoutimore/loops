@@ -3,7 +3,7 @@
 // Creates 5 methods with standard loop alogorithms to create several unique patterns
 public class Loops {
     public static void main(String [] args) {
-        pyramid(5);
+        triangle(9);
     }
 
     //precondition: the rows variable must be greater than 0 intitially
@@ -27,7 +27,7 @@ public class Loops {
         int numberStored = 1;
         int i = 1;
         int numbersInRow = numberStored;
-        while (i < rows) {
+        while (i <= rows) {
             while (numbersInRow > 0) {
                 System.out.print(numberStored);
                 numbersInRow = numbersInRow - 1;
@@ -119,6 +119,8 @@ public class Loops {
 
             }
 
+   
+        
 
     }
 
